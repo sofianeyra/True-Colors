@@ -1,1 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=News+Cycle');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+@import url('https://fonts.googleapis.com/css?family=Paytone+One');
 
+body {
+    font-family: 'News Cycle', sans-serif;
+    text-align: center;
+    color: white;
+    background: url(https://s2.best-wallpaper.net/wallpaper/2560x1600/1306/Abstract-colors-colorful-background_2560x1600.jpg)
+}
+p {
+    color: white;
+    font-size: 26px;
+    text-align: center;
+    text-shadow:  2px 2px 2px black;
+}
+h1 {
+    margin-top: 15%;
+    font-family: 'Fredoka One', cursive;
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    text-shadow:  2px 2px 2px black;
+}
+h2 {
+    font-family: 'Paytone One', sans-serif;
+    color: white;
+    font-size: 60px;
+    text-shadow:  2px 2px 2px black;
+}
+#second-page-themes, 
+#first-option-page, 
+#second-option-page,
+#results-page,
+#results-page-1 {
+    display: none;
+}
+#name {
+    width:180px;
+    font-size: 20px;
+}
+button {
+    margin-left: 3px;
+    padding: 5px;
+    color: black;
+    border: none;
+    font-size: 24px;
+    border-radius: 8px; 
+    background-color: white;
+}
+button:hover {
+    background-color: red;
+    color: white;
+}
+#start {
+    margin-left: 45%;
+    margin-top: 2%;
+    display: block !important;
+}
